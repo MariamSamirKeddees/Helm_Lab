@@ -1,0 +1,7 @@
+replicaCount: 3  # More replicas for HA  
+image:
+  repository: nginx  
+  tag: stable    # More stable version  
+service:
+  type: LoadBalancer  
+  port: 80  
